@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Lab6 {
+public class Apriori {
 
     public static double MIN_SUPPORT = 0.01; // .01
     public static double MIN_CONFIDENCE = 0.99; // .99
