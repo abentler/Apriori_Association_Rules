@@ -1,4 +1,4 @@
-# Interactive Quiz in RISC-V
+# Creating Association Rules with the Apriori Algorithm
 
 Java assignment for CSC 466, Knowledge Discovery from Data, 2024
 
