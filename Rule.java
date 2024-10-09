@@ -1,13 +1,24 @@
+/*  Anna Bentler
+    06/04/2024
+    CSC 466
+    Professor Stanchev
+
+    Rule tracks the relationship between two ItemSets for determining which combinations of items
+    correlate in transactions.
+ */
+
 import java.util.Objects;
 
 public class Rule {
-    private ItemSet left, right;
+    private ItemSet left, right; // left -> right
 
+    // initialize rule with values
     public Rule (ItemSet left, ItemSet right) {
         this.left = left;
         this.right = right;
     }
 
+    // initialize empty rule
     public Rule (){
         this.left = new ItemSet();
         this.right = new ItemSet();
